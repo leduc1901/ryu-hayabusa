@@ -25,15 +25,11 @@ a {
 .left-bar-item{
   font-family: myFirstFont;
   font-size: 24px;
-  margin-top: 60px;
   font-weight: 700;
-  opacity: 0;
-  transition: all 0.3s;
+  animation: fadein 2s;
+  margin-top: 40px;
 }
-.left-bar-item .loaded{
-  opacity: 1;
-  margin-top: 40;
-}
+
 
 .right-bar{
   position: absolute;
@@ -41,6 +37,7 @@ a {
   right: 50px;
   font-family: myFirstFont;
   color: white;
+  animation: textOpacity 4s;
 }
 .main-scroller{
   width: 100vw;
@@ -49,6 +46,7 @@ a {
   z-index: 900;
   position: absolute;
 }
+
 .first-headline{
   font-size: 60px;
   text-align: center;
@@ -56,10 +54,44 @@ a {
   margin-bottom: 15px;
   margin-top: 15px;
   font-weight: 700;
+  animation: textAppear 2s;
 }
+
+.center-image{
+  animation: textOpacity 4s;
+}
+
 .bottom-text{
   color:white;
   font-weight: 600;
   font-size: 24px;
   text-align: center;
 }
+
+.first-headline-2{
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 700;
+  animation: textAppear 2s;
+  animation-delay: 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; margin-top: 60px;}
+  to   { opacity: 1; margin-top: 40px;}
+}
+
+@keyframes textAppear {
+  from { margin-top: 100px}
+  to   { margin-top: 15px}
+}
+
+@keyframes textOpacity {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+
