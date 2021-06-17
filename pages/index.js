@@ -34,7 +34,7 @@ export default function Home() {
           style={{ height: "100vh", marginTop: "20px", position: "relative" }}
         >
           <div id="headline">
-            <p className="first-headline">Ninja</p>
+            <p className="first-headline zzz">Ninja</p>
             <p className="first-headline-2">Gaiden</p>
           </div>
 

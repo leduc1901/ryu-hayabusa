@@ -47,14 +47,19 @@ a {
   position: absolute;
 }
 
-.first-headline{
+.zzz{
   font-size: 60px;
+  max-height:0;
+  overflow: hidden;
   text-align: center;
   color: white;
   margin-bottom: 15px;
   margin-top: 15px;
   font-weight: 700;
-  animation: textAppear 2s;
+   -webkit-animation: slide 1s ease 0.5s forwards;
+   -o-animation: slide 1s ease 0.5s forwards;
+   -ms-animation: slide 1s ease 0.5s forwards;
+    animation: slide 1s ease 0.5s forwards;
 }
 
 .center-image{
@@ -70,13 +75,17 @@ a {
 
 .first-headline-2{
   font-size: 60px;
+  max-height:0;
+  overflow: hidden;
   text-align: center;
   color: white;
   margin-bottom: 15px;
   margin-top: 15px;
   font-weight: 700;
-  animation: textAppear 2s;
-  animation-delay: 2s;
+   -webkit-animation: slide 1s ease 0.5s forwards;
+   -o-animation: slide 1s ease 0.5s forwards;
+   -ms-animation: slide 1s ease 0.5s forwards;
+    animation: slide 1s ease 0.5s forwards;
 }
 
 @keyframes fadein {
@@ -84,7 +93,12 @@ a {
   to   { opacity: 1; margin-top: 40px;}
 }
 
-@keyframes textAppear {
+/* @keyframes textAppear {
+  from { margin-top: 100px}
+  to   { margin-top: 15px}
+} */
+
+@keyframes textAppear2 {
   from { margin-top: 100px}
   to   { margin-top: 15px}
 }
@@ -92,6 +106,12 @@ a {
 @keyframes textOpacity {
   from { opacity: 0}
   to   { opacity: 1}
+}
+
+@keyframes slide
+{
+from {max-height: 0; margin-top: 100px}
+to {max-height: 80px; margin-top: 15px}
 }
 
 
