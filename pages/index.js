@@ -15,7 +15,7 @@ export default function Home() {
         background: "linear-gradient(20deg,rgba(222,184,33,.7),#76adb0 98%)",
       }}
     >
-      <Head>
+      {/* <Head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -23,7 +23,7 @@ export default function Home() {
           crossOrigin="anonymous"
           referrerpolicy="no-referrer"
         />
-      </Head>
+      </Head> */}
       <div
         style={{
           background:
