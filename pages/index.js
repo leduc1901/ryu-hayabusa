@@ -62,7 +62,7 @@ export default function Home() {
           <p>
             As the son of renowned ninja Joe Hayabusa,[note 1] Ryu Hayabusa
             (whose first and last names, respectively, translate literally to
-            dragon" and peregrine falcon) is the wielder of the legendary
+            dragon and peregrine falcon) is the wielder of the legendary
             Dragon Sword.[5] Although he appears as a normal human, he is
             actually a demon-human hybrid whose ancestors drew their blood from
             the same evil deities such as the Holy Vigoor Emperor, the first
@@ -73,10 +73,10 @@ export default function Home() {
           </p>
         </div>
         <div className="car-image">
-          <Image src="https://i.ibb.co/L6n8NyF/23a106bcde9f07bac8d868e8e4eba5c6.png" />
+          <Image alt="" src="https://i.ibb.co/L6n8NyF/23a106bcde9f07bac8d868e8e4eba5c6.png" />
         </div>
         <div className="camp-image">
-          <Image src="https://i.ibb.co/tckLGz1/house-PNG50.png" />
+          <Image alt="" src="https://i.ibb.co/tckLGz1/house-PNG50.png" />
         </div>
         <div className="fking-scroll">
           <div className="section-one" style={{ height: "818px" }}>
@@ -105,7 +105,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="drawing">
-                <Image src="https://cdn.carbuzz.com/gallery-images/2021-mercedes-amg-g63-dashboard-carbuzz-410020.jpg" />
+                <Image alt="" src="https://cdn.carbuzz.com/gallery-images/2021-mercedes-amg-g63-dashboard-carbuzz-410020.jpg" />
               </div>
             </div>
           </div>
