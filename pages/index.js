@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import '../styles/globals.css'
+import '../styles/Index.module.css'
 
 export default function Home() {
   return (
