@@ -1,6 +1,5 @@
-body {
+*{
   font-family: sans-serif;
-  font-size: 15px;
   height: 100vh;
   box-sizing: inherit;
   margin: 0;
